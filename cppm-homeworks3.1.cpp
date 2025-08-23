@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <Windows.h>
 
 class Calculator 
@@ -38,7 +38,7 @@ public:
         }
         else
         {
-            std::cerr << "Îøèáêà: Äåëåíèå íà íîëü!" << std::endl;
+            std::cerr << "ÐžÑˆÐ¸Ð±ÐºÐ°: Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð½Ð¾Ð»ÑŒ!" << std::endl;
             return 0;
         }
     }
@@ -51,7 +51,7 @@ public:
         }
         else
         {
-            std::cerr << "Îøèáêà: Äåëåíèå íà íîëü!" << std::endl;
+            std::cerr << "ÐžÑˆÐ¸Ð±ÐºÐ°: Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð½Ð¾Ð»ÑŒ!" << std::endl;
             return 0;
         }
     }
@@ -88,21 +88,21 @@ int main()
 
     while (true)
     {
-        std::cout << "Ââåäèòå num1: ";
+        std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ num1: ";
         std::cin >> inputNum1;
 
         if (!calc.set_num1(inputNum1)) 
         {
-            std::cout << "Íåâåðíûé ââîä! Çíà÷åíèå íå äîëæíî áûòü ðàâíî 0." << std::endl;
+            std::cout << "ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´! Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð´Ð¾Ð»Ð¶Ð½Ð¾ Ð±Ñ‹Ñ‚ÑŒ Ñ€Ð°Ð²Ð½Ð¾ 0." << std::endl;
             continue;
         }
         
-        std::cout << "Ââåäèòå num2: ";
+        std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ num2: ";
         std::cin >> inputNum2;
 
         if (!calc.set_num2(inputNum2))
         {
-            std::cout << "Íåâåðíûé ââîä! Çíà÷åíèå íå äîëæíî áûòü ðàâíî 0." << std::endl;
+            std::cout << "ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ð¹ Ð²Ð²Ð¾Ð´! Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð½Ðµ Ð´Ð¾Ð»Ð¶Ð½Ð¾ Ð±Ñ‹Ñ‚ÑŒ Ñ€Ð°Ð²Ð½Ð¾ 0." << std::endl;
             continue;
         }
         
