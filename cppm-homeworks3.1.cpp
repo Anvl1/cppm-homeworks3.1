@@ -113,17 +113,10 @@ int main()
 
         double divisionResult1 = calc.divide_1_2();
         double divisionResult2 = calc.divide_2_1();
-
-        if (inputNum2 != 0)
-        {
-            std::cout << "num1 / num2 = " << divisionResult1 << std::endl;
-        }
-
-        if (inputNum1 != 0)
-        {
-            std::cout << "num2 / num1 = " << divisionResult2 << std::endl;
-        }
-
+        
+        std::cout << "num1 / num2 = " << divisionResult1 << std::endl;
+        std::cout << "num2 / num1 = " << divisionResult2 << std::endl;
+        
         std::cout << std::endl;
     }
 
